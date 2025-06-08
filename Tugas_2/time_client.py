@@ -4,7 +4,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 def main():
-    server_address = ('127.0.0.1', 45000) 
+    server_address = ('127.0.0.1', 45000)  
 
     try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -30,4 +30,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
